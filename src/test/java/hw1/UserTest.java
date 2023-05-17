@@ -37,7 +37,7 @@ class UserTest {
     @Test
     void shouldThrowException(){
         System.out.println("ThrowException");
-        assertThrows(IllegalArgumentException.class, ()-> new User("1234", "mail.ru"));
+        assertThrows(IllegalArgumentException.class, ()-> new User("123", "mail.ru"));
     }
 
     @Test
